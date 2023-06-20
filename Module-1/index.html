@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+
+    <!-- card -->
+    <div class="card">
+        <!-- search -->
+        <div class="search">
+            <input type="text" placeholder="Enter City Name">
+            <button><img src="assets/images/search.png" alt=""></button>
+        </div>
+        <!-- error -->
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <!-- weather -->
+        <div class="weather">
+            <img src="assets/images/rain.png" class="weather-icon" />
+            <h1 class="temp">NAN</h1>
+            <h2 class="city">NAN</h2>
+            <h4 class="country"><span class="tz_id"></span> NAN</h4>
+
+            <!-- details -->
+            <div class="details d-flex align-items-center justify-content-between">
+                <div class="col  d-flex align-items-center justify-content-center text-start ">
+                    <img src="assets/images/humidity.png" />
+                    <div>
+                        <p class="humidity">NAN</p>
+                        <p>Humidity</p>
+                    </div>
+
+                </div>
+                <div class="col  d-flex align-items-center justify-content-center text-start ">
+                    <img src="assets/images/wind.png" />
+                    <div>
+                        <p class="wind">NAN</p>
+                        <p>Wind Speed</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
